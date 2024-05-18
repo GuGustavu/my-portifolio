@@ -1,10 +1,8 @@
-/*!
-@author (littlephild)
-@github (github.com/littlephild).
+html {
+    
+}
 
- */
-
- body {
+body {
     overflow-x: hidden;
 }
 
@@ -32,7 +30,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -80,10 +78,10 @@ hr.star-primary:after {
 }
 
 header {
- text-align: center;
- color: #fff;
- background: #2c3e50;
- padding:100px;
+    text-align: center;
+    color: #fff;
+    background: #2c3e50;
+    padding: 100px 100px 0 100px;
 }
 
 header .container {
@@ -99,7 +97,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -150,7 +148,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -171,14 +169,18 @@ header .intro-text .skills {
     border: 0;
     background: #34495e !important;
 }
-.navbar-default .navbar-nav>li>a{
-  color:#fff !important;
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
 }
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-  color:#fff;
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #fff;
 }
-.navbar-brand{
-   color:#C5C5C5 !important;
+
+.navbar-brand {
+    color: #C5C5C5 !important;
 }
 
 section {
@@ -214,9 +216,10 @@ section.success a.active {
     }
 }
 
-.profile_img img{
-  border-radius:50%;
+.profile_img img {
+    border-radius: 50%;
 }
+
 /* Portfolio css */
 
 #portfolio .portfolio-item {
@@ -236,7 +239,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgb(44,62,80);
+    background: rgb(44, 62, 80);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -293,13 +296,16 @@ section.success a.active {
     color: #18bc9c;
     background: #fff;
 }
-.btn-group-lg>.btn, .btn-lg{
-   border-radius:0px;
-  border-color: #333 !important;
+
+.btn-group-lg>.btn,
+.btn-lg {
+    border-radius: 0px;
+    border-color: #333 !important;
 }
-.btn-success{
-  background-color: #333 !important;
-  border-color: #333 !important;
+
+.btn-success {
+    background-color: #333 !important;
+    border-color: #333 !important;
 }
 
 
@@ -320,7 +326,7 @@ section.success a.active {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none!important;
+    box-shadow: none !important;
     resize: none;
 }
 
@@ -332,12 +338,12 @@ section.success a.active {
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
-   
+
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
@@ -379,8 +385,9 @@ footer .footer-below {
     padding: 25px 0;
     background-color: #233140;
 }
-.footer-below a{
-  color: #C5C5C5 !important;
+
+.footer-below a {
+    color: #C5C5C5 !important;
 }
 
 .btn-social {
@@ -483,4 +490,35 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+header .container {
+    padding: 200px 15px;
+}
+
+#portfolio{
+    border-top: 100px solid #2c3e50;
+}
+
+#about {
+    border-top: 100px solid #fff;
+}
+
+#contact{
+    border-top: 100px solid #2c3e50;
+    padding: 100px 0px 0px 0px;
+}
+
+.scrollContainer{
+    height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.scrollContainer::-webkit-scrollbar {
+    width: 0px;
+}
+
+.scrollArea {
+    scroll-snap-align: start;
 }
