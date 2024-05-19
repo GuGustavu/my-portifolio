@@ -7,25 +7,20 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
     type="text/css">
+  <link rel="icon" href="./src/iconetitle2.png" type="image/png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body  class="index">
+<body class="index">
   <div class="scrollContainer">
     <!-- Nevagação -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Alterar agrupados para melhor exibição em dispositivos móveis -->
         <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+
           <a class="navbar-brand" href="#page-top">
             <\GR>
           </a>
@@ -131,25 +126,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>About</h2>
+            <h2>SOBRE</h2>
             <hr class="star-light">
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 col-lg-offset-2">
-            <p>I am an experienced web developer with a passion for learning and writing clean code. I take pride in the
-              work that I deliver and always strive to adhere to best practices.
-              I am happiest building software that delivers value quickly, using modern techniques and principles,
-              responding to change I enjoy working closely with stakeholders to get fast feedback.
+            <p>Sou um desenvolvedor web apaixonado por aprender e escrever códigos eficientes. Tenho orgulho do trabalho
+              que entrego e das soluções inteligentes que crio. Fico
+              mais feliz construindo aplicações que agreguem valor rapidamente, usando técnicas e princípios modernos,
+              respondendo às mudanças. Gosto de trabalhar em estreita colaboração com as partes interessadas para obter
+              feedback rápido.
             </p>
           </div>
           <div class="col-lg-4">
-            <p>From all the skills I have learnt I would have to say the area I enjoy the most is php. Keeping ahead
-              with
-              the constantly evolving plugins, libraries and frameworks make it an exciting challenge. The most recent
-              skill I have been learning has been test driven development and I hope to develop these skills further in
-              my
-              new position.</p>
+            <p>De todas as habilidades que aprendi, devo dizer que a área que mais gosto é Node.JS. Acompanhar
+              bibliotecas e frameworks em constante evolução torna isso um desafio emocionante. A habilidade mais
+              recente que aprendi foi o desenvolvimento utilizando o Vite. Pretendo aprimorá-la ainda mais a fim de
+              masterizar meus conhecimentos e conceitos da ferramenta.</p>
 
           </div>
         </div>
@@ -161,44 +155,42 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Contact Me</h2>
+            <h2>CONTATE ME</h2>
             <hr class="star-primary">
           </div>
         </div>
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
             <form name="sentMessage" id="contactForm" novalidate>
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <label>Name</label>
-                  <input type="text" class="form-control" placeholder="Name" id="name" required
-                    data-validation-required-message="Please enter your name.">
+                  <label>Nome</label>
+                  <input type="text" class="form-control" placeholder="Nome" id="name" required
+                    data-validation-required-message="Por favor insira o nome.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <label>Email Address</label>
-                  <input type="email" class="form-control" placeholder="Email Address" id="email" required
-                    data-validation-required-message="Please enter your email address.">
+                  <label>Email</label>
+                  <input type="email" class="form-control" placeholder="Email" id="email" required
+                    data-validation-required-message="Por favor insira o Email.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <label>Phone Number</label>
-                  <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required
-                    data-validation-required-message="Please enter your phone number.">
+                  <label>Número</label>
+                  <input type="tel" class="form-control" placeholder="Número" id="phone" required
+                    data-validation-required-message="Por favor insira o número.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <label>Message</label>
-                  <textarea rows="5" class="form-control" placeholder="Message" id="message" required
-                    data-validation-required-message="Please enter a message."></textarea>
+                  <label>Mensagem</label>
+                  <textarea rows="5" class="form-control" placeholder="Mensagem" id="message" required
+                    data-validation-required-message="Por favor insira a mensagem."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -206,7 +198,7 @@
               <div id="success"></div>
               <div class="row">
                 <div class="form-group col-xs-12">
-                  <button type="submit" class="btn btn-success btn-lg">Send</button>
+                  <button type="submit" class="btn btn-success btn-lg">Enviar</button>
                 </div>
               </div>
             </form>
@@ -244,7 +236,8 @@
               </div>
               <div class="footer-col col-md-4">
                 <h3>My Favorite Quote</h3>
-                <p>Any code of your own that you haven't looked at for six or more months might as well have been written
+                <p>Any code of your own that you haven't looked at for six or more months might as well have been
+                  written
                   by
                   someone else.</a>.</p>
               </div>
@@ -265,7 +258,7 @@
 
 
     <!-- Footer -->
-    
+
   </div>
 
 </body>
